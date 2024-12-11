@@ -6,11 +6,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBluesky } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import profilephoto from '../Images/pofilephoto.jpeg'
 
 function Header() {
   return (
     <div className='App'>
       <div className="App-header">
+        <div>
+        <img src={profilephoto} style={{borderRadius: '100px', height: '200px', margin: '10px'}}/>
+        </div>
         <p>Cedric Mentor</p>
         <TypeAnimation 
             sequence={[
