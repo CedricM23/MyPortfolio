@@ -38,7 +38,7 @@ function Header() {
 
         <DotLottieReact
           className='arrow'
-          src="https://lottie.host/89090780-2ea4-4e78-a891-1f0aa3c7091e/VPUfpJBGk6.lottie"
+          src="https://lottie.host/182e9e07-8ddc-4833-8c0d-87d55da07455/RSACDKnQcm.lottie"
           loop
           autoplay 
           />
