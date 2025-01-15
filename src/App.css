@@ -17,6 +17,9 @@
 .arrow{
   position : absolute;
   bottom: 0;
+  height: 100px;
+  width: 200px;
+  margin-bottom: 60px;
   }
 
 .logos{
@@ -28,6 +31,20 @@ display: inline-block;
 padding: 0 .5em 0.2em;
 text-decoration: none;
 transition: background-size 0.5s;
+ animation: fadeIn 5s;
+}
+
+p{
+  animation: fadeIn 5s;
+}
+
+.TypeAnimation{
+  animation: fadeIn 5s
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .logos:hover {
@@ -36,5 +53,11 @@ transition: background-size 0.5s;
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
- 
+    .arrow{
+      margin: -20px;
+    }
+  }
+
+  img {
+    animation: fadeIn 5s
   }

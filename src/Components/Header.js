@@ -17,6 +17,7 @@ function Header() {
         </div>
         <p>Cedric Mentor</p>
         <TypeAnimation 
+        className='TypeAnimation'
             sequence={[
                 'Front-End developer.',
                 1000,
