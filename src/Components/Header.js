@@ -13,7 +13,7 @@ function Header() {
     <div className='App'>
       <div className="App-header">
         <div>
-        <img src={profilephoto} style={{borderRadius: '100px', height: '200px', margin: '10px'}}/>
+        <img src={profilephoto} style={{borderRadius: '100px', height: '200px', margin: '10px'}} alt='Profile'/>
         </div>
         <p>Cedric Mentor</p>
         <TypeAnimation 

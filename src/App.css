@@ -51,13 +51,25 @@ p{
   --underline-width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+.About-Section{
+  display: flex;
+  margin-top: 100px;
+}
+
+
+.About-Section-Text {
+  font-size: 1.5rem;
+  margin: 30px;
+}
+
+@media only screen and (max-width: 868px) {
   /* For mobile phones: */
     .arrow{
       margin: -20px;
     }
-  }
+  
+    .About-Section{
+      display: block;
+    }
 
-  img {
-    animation: fadeIn 5s
   }
