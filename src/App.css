@@ -26,12 +26,17 @@
  font-size: 30px;
  margin: 30px;
  background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 0%) 0.1em no-repeat;
-color: white;
+color: gray;
 display: inline-block;
 padding: 0 .5em 0.2em;
 text-decoration: none;
 transition: background-size 0.5s;
  animation: fadeIn 5s;
+}
+
+.logos:hover {
+  --underline-width: 100%;
+  color: white;
 }
 
 p{
@@ -47,19 +52,23 @@ p{
   100% { opacity: 1; }
 }
 
-.logos:hover {
-  --underline-width: 100%;
-}
+
 
 .About-Section{
   display: flex;
   margin-top: 100px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 
 
 .About-Section-Text {
   font-size: 1.5rem;
   margin: 30px;
+}
+
+.About-Section-Image{
+  margin: 5px;
 }
 
 @media only screen and (max-width: 868px) {
@@ -70,6 +79,8 @@ p{
   
     .About-Section{
       display: block;
+      margin-right: 0;
+      margin-left: 0;
     }
 
   }
