@@ -12,7 +12,6 @@ function App() {
       <About />
       <Stack />
       <Projects />
-      <Footer />
     </div>
   );
 }

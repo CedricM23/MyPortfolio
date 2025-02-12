@@ -85,6 +85,20 @@ p{
   margin: 5px;
 }
 
+.Footer{
+  background-color: gray;
+}
+
+.Footer-container{
+  display: flex;
+  justify-content: center;
+}
+
+.Footer-items{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 @media only screen and (max-width: 1500px) {
   /* For mobile phones: */
     .arrow{
@@ -98,8 +112,5 @@ p{
     }
     .About-Section-Image{
       margin: 0px;
-      align-items: center;
-      display: flex;
-      justify-content: center;
     }
   }

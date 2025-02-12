@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBluesky } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import profilephoto from '../Images/pofilephoto.jpeg'
 
 function Header() {
@@ -13,7 +14,7 @@ function Header() {
     <div className='App'>
       <div className="App-header">
         <div>
-        <img src={profilephoto} style={{borderRadius: '100px', height: '200px', margin: '10px'}} alt='Profile'/>
+        <img src={profilephoto} style={{borderRadius: '100%', height: '350px', margin: '10px'}} alt='Profile'/>
         </div>
         <p>Cedric Mentor</p>
         <TypeAnimation 
@@ -35,6 +36,7 @@ function Header() {
         <a href='https://github.com/CedricM23'><FontAwesomeIcon className="logos" icon={faSquareGithub}/></a>
         <a href='https://bsky.app/profile/cedm23.bsky.social'><FontAwesomeIcon className="logos" icon={faBluesky}/></a>
         <a href='https://www.linkedin.com/in/cedric-mentor-064a77193'><FontAwesomeIcon className="logos" icon={faLinkedin}/></a>
+        <a href='mailto:Cedricpbc@gmail.com'><FontAwesomeIcon className='logos' icon={faEnvelope}/></a>
         </div>
 
         <DotLottieReact
