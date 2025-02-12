@@ -34,10 +34,10 @@
 }
 
 .logos:hover {
-  --underline-width: 100%;
+  --underline-width: 60%;
   color: white;
-  -webkit-animation: hovering 2s forwards;
-  animation: hovering 2s forwards;
+  -webkit-animation: hovering 1s forwards;
+  animation: hovering .8s forwards;
 }
 
 p{
@@ -73,7 +73,6 @@ p{
   margin-bottom: 100px;
   -webkit-animation: moving 5s;
   animation: moving 5s;
-
 }
 
 
@@ -86,7 +85,7 @@ p{
   margin: 5px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
   /* For mobile phones: */
     .arrow{
       margin: -20px;
@@ -97,5 +96,10 @@ p{
       margin-right: 0;
       margin-left: 0;
     }
-
+    .About-Section-Image{
+      margin: 0px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
   }

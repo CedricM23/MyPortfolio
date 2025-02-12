@@ -3,8 +3,10 @@ import '../App.css'
 
 function Stack() {
   return (
-    <div className='App'>
+    <>
+    <div className='flexstack'>
     </div>
+    </>
   )
 }
 
