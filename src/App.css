@@ -24,7 +24,7 @@
 
 .logos{
   font-size: 30px;
-  margin: 30px;
+  margin: 15px;
   background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 0%) 0.1em no-repeat;
   color: gray;
   display: inline-block;
