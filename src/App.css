@@ -23,20 +23,21 @@
   }
 
 .logos{
- font-size: 30px;
- margin: 30px;
- background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 0%) 0.1em no-repeat;
-color: gray;
-display: inline-block;
-padding: 0 .5em 0.2em;
-text-decoration: none;
-transition: background-size 0.5s;
- animation: fadeIn 5s;
+  font-size: 30px;
+  margin: 30px;
+  background: linear-gradient(currentColor 0 0) bottom center/ var(--underline-width, 0%) 0.1em no-repeat;
+  color: gray;
+  display: inline-block;
+  padding: 0 .5em 0.2em;
+  text-decoration: none;
+  transition: background-size 0.6s;
 }
 
 .logos:hover {
   --underline-width: 100%;
   color: white;
+  -webkit-animation: hovering 2s;
+  animation: hovering 2s;
 }
 
 p{
@@ -47,9 +48,19 @@ p{
   animation: fadeIn 5s
 }
 
+@keyframes hovering{
+  from {transform: translateY(0px);}
+  to {transform: translateY(-8px);}
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes moving {
+  from {transform: translateY(-50px);}
+  to {transform: translateY(0px);}
 }
 
 
@@ -60,6 +71,9 @@ p{
   margin-right: 200px;
   margin-left: 200px;
   margin-bottom: 100px;
+  -webkit-animation: moving 5s;
+  animation: moving 5s;
+
 }
 
 
@@ -72,7 +86,7 @@ p{
   margin: 5px;
 }
 
-@media only screen and (max-width: 868px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
     .arrow{
       margin: -20px;
