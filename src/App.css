@@ -36,8 +36,8 @@
 .logos:hover {
   --underline-width: 100%;
   color: white;
-  -webkit-animation: hovering 2s;
-  animation: hovering 2s;
+  -webkit-animation: hovering 2s forwards;
+  animation: hovering 2s forwards;
 }
 
 p{
